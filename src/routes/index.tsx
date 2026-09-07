@@ -222,7 +222,7 @@ function Index() {
             <button
               type="submit"
               disabled={loading}
-              className="rounded-xl bg-foreground px-4 py-2 text-sm font-medium text-background ring-1 ring-foreground/0 transition-colors hover:bg-muted-foreground disabled:opacity-50"
+              className="rounded-xl bg-foreground px-4 py-2 text-sm font-medium text-background transition-colors hover:bg-foreground/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50"
             >
               {loading ? "Loading…" : "Search"}
             </button>
